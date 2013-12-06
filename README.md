@@ -10,8 +10,8 @@ You can run main.hs in the following way:
 $ runhaskell main.hs LAYERS_SIZES RANDOM_INIT_RANGE ITER_LIMIT ERROR_LIMIT LEARNING_RATE
 ```
 where:
-- LAYER_SIZES: list of integers, representing number of nodes in each layer, for example [1,5,3];
-- RANDOM_INIT_RANGE: double, for exmaple 1;
+- LAYER_SIZES: list of integers, representing number of nodes in each layer;
+- RANDOM_INIT_RANGE: double;
 - ITER_LIMIT: integer, maximum number of iterations;
 - ERROR_LIMIT: double, needed max error;
 - LEARNING_RATE: double.
